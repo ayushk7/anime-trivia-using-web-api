@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img/KxmG4iQ.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    width: 40rem;
+    min-height: 30rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+.questions {
+    min-height: 25.5rem;
+    display: flex;
+}
+
+.ques {
+    min-height: 25.5rem;
+    min-width: 100%;
+    /* position: absolute; */
+    position: relative;
+    display: flex;
+    /* left: 20rem; */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 1s all;
+}
+
+.options {
+    width: 100%;
+    min-height: 18rem;
+    flex: 1;
+    /* background-color: bisque; */
+    display: flex;
+    /* padding: 0.5rem; */
+    padding: 0rem 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.options:first-child {
+    padding-top: 2rem;
+}
+
+.options:last-child {
+    padding-bottom: 2rem;
+}
+
+.opt {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.opt input {
+    margin: 1rem;
+}
+
+.opt label {
+    font-size: larger;
+}
+
+.ques p {
+    width: 100%;
+    min-height: 7.5rem;
+    text-align: center;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: 600;
+    padding: 2rem 2rem 0rem 2rem;
+    /* border-radius: 2rem 2rem 0 0; */
+}
+
+.action-buttons {
+    width: 100%;
+    /* background-color: aqua; */
+    height: 4.5rem;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.action-buttons button {
+    flex: 1;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    /* border-collapse: collapse; */
+}
+
+.msg {
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+}
